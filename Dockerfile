@@ -1,0 +1,9 @@
+FROM node:4.6
+
+RUN apt-get update \
+  && apt-get install -y zip \
+  && apt-get clean \
+  && curl -O https://bootstrap.pypa.io/get-pip.py \
+  && python get-pip.py \
+  && rm get-pip.py \
+  && pip install awscli
