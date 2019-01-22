@@ -1,4 +1,4 @@
-FROM node:4.6
+FROM node:10.9
 
 RUN apt-get update \
   && apt-get install -y zip \
