@@ -2,7 +2,7 @@ Deploy Node.js project To AWS Environment With Bitbucket Pipelines
 ---
 
 This is a basic image to deploy Node.js project to AWS Environment with Bitbucket Pipelines.
-It is based on node:4.6 docker image.
+It is based on node:10.9 docker image.
 
 Included in this image:
 - AWS CLI 1.11.12 with Python 2.7.9
